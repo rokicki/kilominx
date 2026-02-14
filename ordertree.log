@@ -1,0 +1,96 @@
+# This is twsearch v0.10.0-7-gaeed0ed (C) 2022 Tomas Rokicki.
+# /Users/rokicki/twsearch/build/bin/twsearch --ordertree kilominx.tws
+Requiring 134 bits 20 bytes per entry; 20 from identity.
+Rotation group size is 60
+State size is about 1.41383 x 10^27 log2 90.1917
+Found 69 canonical move states.
+Calculated canonical states in 0.00062108
+1
+5 U
+21 U F
+45 U F2
+18 U F2'
+12 U F'
+105 U D F
+90 U D F2'
+60 U D F'
+27 U F L2
+30 U F L2'
+63 U F BL2
+24 U F BL2'
+36 U F BL'
+8 U F R
+15 U F2 L2
+11 U F2 FR
+42 U F2' BL2'
+9 U2 F2 R2
+315 U D F B2
+126 U D F B2'
+84 U D F B'
+135 U D F L2
+120 U D F BL2'
+180 U D F BL'
+33 U D F FR
+39 U D F FR2
+40 U D F R
+7 U D F2 FR2
+210 U D F2' BL2'
+99 U D2 F2 FR
+72 U D2 F2 FR2'
+55 U D2 B FR
+20 U D' F2 FR2
+4 U F U2 F'
+6 U F U' F'
+10 U F L2 R
+54 U F DR2' R
+35 U F FR' R2
+13 U F2 L2 FR
+3 U2 F2 U2' F2'
+189 U D F B L2
+168 U D F B DR
+117 U D F B2 FR2
+360 U D F B2 R
+252 U D F B2 DL'
+108 U D F B' L2
+165 U D F L2 BL2
+66 U D F L2' FR2
+14 U D F DR2 R
+420 U D F DR2' DL'
+270 U D F BL2' R
+132 U D F2 B2' FR2'
+630 U D F2 DR2' DL2'
+231 U D2 F DR DL
+17 U D2 F2 B FR
+495 U D2 F2 DR DL
+78 U D2 F2 BL2' FR'
+198 U D2 F2' DR DL
+65 U D2 B DR2 FL
+22 U D2 B2 BL2 DL2
+28 U D2' F2 FR2' R2'
+195 U F DR BL2 DL
+216 U D F B L2 DR
+51 U D F B L2 FR2
+48 U D F B DR BL2
+16 U D F B2 DR2 R
+70 U D F B2 BL2 R
+56 U D F B2 BL2 R2'
+156 U D F B2 BL2' R
+77 U D F B2 R2 BR'
+504 U D F B2 R' DL2'
+396 U D F2 DR2 BL2' FL2'
+330 U D F2 DR2' BL2' FL'
+44 U D F2 FL2' DL2' BL2
+140 U D B2 D FL2 FR2
+52 U D2 F B' FL2 R
+57 U D2 F DR BL2 DL
+19 U D2 F2 B L2 FR
+153 U D2 F2 DR BL2 FL
+26 U D2 F2 DR2' FR2 FL
+540 U D2' F2' DR2 BR' DL2'
+2 U F U' FR R' FR'
+297 U F2 B2 DR FL2' DL2'
+273 U F2 B2 DR2 BL2 FL
+91 U F2 B2 DR2 FL' DL2'
+378 U D F B L2 DR R'
+234 U D F B2 L2' FR2 R2'
+110 U D2 B DR2 DL2 FL2 FR2'
