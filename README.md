@@ -123,3 +123,15 @@ in the quantum-turn metric, we used
 	~/twsearch/build/bin/twsearch -F -M 1400000 -g -q kilominx/kilominxfc.tws
 
 and the output is in kilominx-fc-g-q.log.
+
+To attempt optimal solving, we used the following command:
+
+	~/twsearch/build/bin/twsearch -S1017 --nowrite -M 1400000 --newcanon 3 kilominxfc.tws
+
+The --newcanon 3 option significantly decreases the branching factor for
+the search when we don't have a lot of moves that commute, and for this
+move set, the moves u, r, and f don't commute with anything.  This is just
+another type of canonical sequences but we don't describe it in the paper.
+Anyway, the output is stored in randomfc.log just so you can see how long
+it took.  The "found 1 solution" initially with an empty string is because
+with the -S option, we always `solve' the solved position first.
