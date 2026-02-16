@@ -40,4 +40,36 @@ You can also ask cubing.js what the state space of the kilominx is, with
 
 and on the last line we see the value 1.413.834.128.545.313.800.765,440,000
 which is 1.4e27, the size of the large group, which considers only a single
-rotation of the puzzle to be solved.
+rotation of the puzzle to be solved.  Luckily, cubing.js knows all about
+holding a corner stationary and calculating the size of the small group:
+
+	bun src/bin/puzzle-geometry-bin.ts --ss --fixcorner --nocenters --noedges megaminx
+
+which gives the value 23.563.902.142.421.896.679.424,000 or about 2.4e25.
+We also need a twsearch file that handles the small group, so we generate
+it here.  We don't know what corner cubing.js will select, though, so we
+do this by specifying what moves to include:
+
+	bun src/bin/puzzle-geometry-bin.ts --ksolve --moves U,F,R,L,BL,BR,DR,FR,FL,u,f,r --rotations --optimize --nocenters --noedges megaminx > ~/kilominx/kilominxfc.tws
+
+Next, to get the information about possible orders and short routines
+that generate it, we can use the twsearch --ordertree option.  We have to
+let it run for a while and then control-C it though, because it is not
+smart enough to know when all orders have been found.  To do this, we
+cd back into the kilominx directory and run:
+
+	~/twsearch/build/bin/twsearch --ordertree kilominx.tws | tee ordertree.log
+
+and we give it say 15 minutes to run, and then hit control-C once we see
+the hard states (110, 234, and 378) show up.
+
+Next, we see if we can find the solution to a full puzzle rotation like Uv
+(also known by its default name of y) from twsearch.  This requires a
+bit of time and memory, but this is how I ran it on my machine:
+
+	~/twsearch/build/bin/twsearch --nowrite -M 32768 --scramblealg y kilominx.tws
+
+It took about twenty minutes to find the solution in the paper.  We ran it
+similarly for the other rotations we were interested in.
+
+
