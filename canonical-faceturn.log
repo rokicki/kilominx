@@ -1,0 +1,28 @@
+# This is twsearch v0.10.0-7-gaeed0ed (C) 2022 Tomas Rokicki.
+# /Users/rokicki/twsearch/build/bin/twsearch -C19 kilominx.tws
+Requiring 134 bits 20 bytes per entry; 20 from identity.
+Rotation group size is 60
+State size is about 1.41383 x 10^27 log2 90.1917
+Found 69 canonical move states.
+Calculated canonical states in 0.000721931
+D 0 this 1 total 1
+D 1 this 48 total 49 br 48
+D 2 this 1536 total 1585 br 32
+D 3 this 43520 total 45105 br 28.3333
+D 4 this 1.18272e+06 total 1.22782e+06 br 27.1765
+D 5 this 3.16416e+07 total 3.28694e+07 br 26.7532
+D 6 this 8.41318e+08 total 8.74188e+08 br 26.589
+D 7 this 2.2315e+10 total 2.31892e+10 br 26.5239
+D 8 this 5.91299e+11 total 6.14488e+11 br 26.4978
+D 9 this 1.56619e+13 total 1.62764e+13 br 26.4873
+D 10 this 4.14777e+14 total 4.31053e+14 br 26.4831
+D 11 this 1.09839e+16 total 1.14149e+16 br 26.4814
+D 12 this 2.90862e+17 total 3.02277e+17 br 26.4808
+D 13 this 7.70216e+18 total 8.00444e+18 br 26.4805
+D 14 this 2.03956e+20 total 2.11961e+20 br 26.4804
+D 15 this 5.40083e+21 total 5.61279e+21 br 26.4803
+D 16 this 1.43016e+23 total 1.48628e+23 br 26.4803
+D 17 this 3.7871e+24 total 3.93572e+24 br 26.4803
+D 18 this 1.00283e+26 total 1.04219e+26 br 26.4803
+D 19 this 2.65554e+27 total 2.75976e+27 br 26.4803
+Twsearch finished.
