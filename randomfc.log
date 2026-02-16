@@ -1,0 +1,29 @@
+# This is twsearch v0.0.0 (C) 2022 Tomas Rokicki.
+# ../build/bin/twsearch -S1017 --nowrite -M 1400000 --newcanon 3 kilominxfc.tws
+Requiring 129 bits 20 bytes per entry; 16 from identity.
+Rotation group size is 3
+State size is about 7.06917 x 10^25 log2 85.8697
+Canonical states: 45105
+Calculated canonical states in 1.16484
+For memsize 1468006400000 sh1 7 mul 85 sh2 21 shardshift 37
+Trying to allocate 1460288880704
+Initializing memory in 0.983404
+Filling depth 0 val 0 saw 1 (1) in 0.000301123 rate 0.00332091
+Filling depth 1 val 0 saw 16 (48) in 0.000270844 rate 0.177224
+Filling depth 2 val 0 saw 512 (1536) in 0.00444603 rate 0.345477
+Filling depth 3 val 0 saw 14512 (43520) in 0.080811 rate 0.53854
+ 
+Found 1 solution max depth 0 lookups 1 in 3.60012e-05 rate 0.0277768
+Filling depth 4 val 0 saw 393600 (493824) in 0.526437 rate 0.938049
+Filling depth 5 val 0 saw 10490348 (11388400) in 11.1288 rate 1.02332
+Depth 10 in 5.36143 probes 32987004 nodes 32986944 rate 6.15264
+Filling depth 6 val 0 saw 277369706 (291321624) in 198.618 rate 1.46674
+Depth 12 in 33.542 probes 883842607 nodes 883799228 rate 26.349
+Filling depth 7 val 0 saw 7301463580 (7812115388) in 2003.01 rate 3.9002
+Depth 13 in 22.4933 probes 884966430 nodes 883808981 rate 39.2921
+Depth 14 in 321.998 probes 23733895245 nodes 23702859105 rate 73.6118
+Filling depth 8 val 1 saw 188690301301 (209517525688) in 7152.92 rate 29.2912
+Depth 15 in 323.974 probes 24687506535 nodes 23878736754 rate 73.7057
+Depth 16 in 8278.5 probes 662123755421 nodes 640432777204 rate 77.361
+Filling depth 9 val 2 saw 3254303747886 (5619244196604) in 72976.7 rate 77.0006
+Depth 17 in 54353.2 probes 4208868388309 nodes 3725970674732 rate 68.5511
