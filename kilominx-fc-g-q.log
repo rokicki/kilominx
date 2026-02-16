@@ -1,0 +1,19 @@
+# This is twsearch v0.0.0 (C) 2022 Tomas Rokicki.
+# build/bin/twsearch -F -M 1400000 -g -q kilominx/kilominxfc.tws
+Requiring 129 bits 20 bytes per entry; 16 from identity.
+Rotation group size is 3
+State size is about 7.06917 x 10^25 log2 85.8697
+For quarter turn, rewrote bases to 25
+Found 297 canonical move states.
+Calculated canonical states in 0.00635409
+Using sorting bfs symm and arrays.
+Dist 0 cnt 1 tot 1 scnt 1 stot 1 in 0.00358891
+Dist 1 cnt 4 tot 5 scnt 24 stot 25 in 0.00502706
+Dist 2 cnt 68 tot 73 scnt 408 stot 433 in 0.00457597
+Dist 3 cnt 1036 tot 1109 scnt 6208 stot 6641 in 0.00478697
+Dist 4 cnt 15024 tot 16133 scnt 90144 stot 96785 in 0.00845504
+Dist 5 cnt 213360 tot 229493 scnt 1280160 stot 1376945 in 0.0272541
+Dist 6 cnt 2994836 tot 3224329 scnt 17968800 stot 19345745 in 0.25879
+Dist 7 cnt 41753624 tot 44977953 scnt 250521744 stot 269867489 in 3.76673
+Dist 8 cnt 579670342 tot 624648295 scnt 3478019136 stot 3747886625 in 56.3457
+Dist 9 cnt 8024349496 tot 8648997791 scnt 48146093102 stot 51893979727 in 1045.61
